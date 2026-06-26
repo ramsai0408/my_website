@@ -1,28 +1,28 @@
 export default function Experience() {
   return (
-    <div className="section" id="experience">
+    <div className="section reveal" id="experience">
       <h2>Experience</h2>
 
       <div className="card">
-        <h3>Software Engineer – Backend Developer</h3>
+        <h3>Software/Data Engineer – Backend Developer</h3>
         <p>Tautelary Inc. | jan 2025 – present</p>
 
         <ul>
-          <li>Developed secure RESTful APIs using MVC architecture for transaction-driven backend systems, handling 5K to 10K daily calls with sub-second response times and improving reliability by 20% through enhanced validation and error handling.</li>
-          <li>Implemented CI/CD pipelines using Git, Maven, Jenkins, and Docker to automate build, test, and deployment processes, reducing manual release effort by 40%.</li>
-          <li>Worked extensively with PostgreSQL, writing complex SQL queries and optimizing indexes to improve query performance by 25 to 40% for critical application features.</li>
-          <li>Implemented comprehensive unit tests using JUnit and Mockito, validating core business logic, API contracts, and edge cases, which increased test coverage by 30% and reduced post-release defects by 25%.</li>
+          <li>Modernized 15+ legacy Cloudera, Hue, Hadoop, and Hive-based analytical workflows by migrating data access and validation processes to AWS, reducing dependency on legacy querying platforms by 40% and improving cloud-based data availability.</li>
+          <li>Built governed data access patterns using SageMaker, Athena, S3, and Glue Data Catalog, enabling teams to validate and query cloud-based datasets more securely and consistently across multi-account AWS environments.</li>
+          <li>Validated 50+ migrated datasets by reconciling record counts, schema alignment, null handling, duplicate checks, and business-rule accuracy, reducing source-to-target defects by 30% before business consumption.</li>
+          <li>Implemented near real-time S3-to-Snowflake ingestion using Snow pipe auto-ingest, enabling newly landed curated files in Amazon S3 to load automatically into Snowflake and improving data freshness for business reporting.</li>
         </ul>
       </div>
 
       <div className="card">
-        <h3>Software Developer</h3>
+        <h3>Software/Data Developer</h3>
         <p>Cognizant Technology Solutions, Hyderabad | Nov 2020 – May 2023</p>
 
         <ul>
-          <li>Implemented RESTful web services to enable secure data exchange across 5+ internal systems spanning multiple business domains, improving system interoperability and reducing manual data reconciliation by 30%.</li>
-          <li>Migrated on-prem Java services to AWS via CI/CD-driven S3-to-EC2 deployments, enabling scalable Spring Boot runtimes and reducing infrastructure overhead by 35%.</li>
-          <li>Automated end-to-end functional validation using Selenium and BDD Cucumber, verifying UI text, user interactions, and backend API responses, reducing manual testing cycles by 40%.</li>
+          <li>Engineered Spark-driven migration pipelines on GCP Dataproc to process 10M+ card transaction and rebates records from RDH, FRS, Oracle, DB2, and legacy systems into raw, silver, and gold layers, improving data consistency and reporting reliability.</li>
+          <li>Built Big Query validation reports across 30+ migration datasets to verify record counts, duplicate handling, null values, schema consistency, and business-rule accuracy before publishing trusted datasets to downstream analytics teams</li>
+          <li>Optimized large-scale Spark workloads using AQE, broadcast joins, hash joins, partitioning, and caching strategies, improving batch processing performance by 40% for high-volume financial transaction pipelines.</li>
         </ul>
       </div>
     </div>

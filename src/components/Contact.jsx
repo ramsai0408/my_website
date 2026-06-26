@@ -1,16 +1,12 @@
 export default function Contact() {
   return (
-    <div className="section contact-section" id="contact">
+    <div className="section contact-section reveal" id="contact">
       <h2>📬 Get In Touch</h2>
 
       <p className="contact-description">
-        I am currently exploring Full Stack and Backend Engineering opportunities 
-        where I can architect scalable microservices, design high-performance APIs, 
-        and build distributed data platforms that operate reliably at scale.  
+        I am a Software/Data Engineer with 3+ years of experience building reliable data platforms, modernizing legacy data systems, and delivering trusted datasets for business reporting and analytics. My work focuses on large-scale data migration, validation, reconciliation, and cloud-based data processing across enterprise and financial environments.  
         <br /><br />
-        My focus lies in production-grade backend systems, cloud-native infrastructure, 
-        and performance-optimized data workflows. If you are building systems that demand 
-        reliability, scalability, and clean architecture, I would welcome the opportunity to connect.
+        I enjoy solving complex data problems, improving data quality, and building scalable systems that help business teams access accurate, secure, and analytics-ready information for decision-making.
       </p>
 
       <div className="contact-buttons">

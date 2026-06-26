@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className="section skills-section" id="skills">
+    <div className="section skills-section reveal" id="skills">
       <h2>Technical Expertise</h2>
 
       <div className="skills-grid">
@@ -9,21 +9,21 @@ export default function Skills() {
           <h3>Programming & Core</h3>
           <p>Java</p>
           <p>Python</p>
-          <p>TypeScript</p>
+          <p>Spark</p>
           <p>SQL</p>
           <p>OOP, Data Structures</p>
           <p>System Design</p>
         </div>
 
         <div className="skills-column">
-          <h3>Backend & Distributed Systems</h3>
-          <p>Spring Boot</p>
-          <p>Node.js</p>
-          <p>REST APIs</p>
-          <p>GraphQL</p>
+          <h3>Spark</h3>
+          <p>Snow Flake</p>
+          <p>Big Query</p>
+          <p> GitHub</p>
+          <p>Jenkins</p>
           <p>Apache Kafka</p>
-          <p>Microservices Architecture</p>
-          <p>JWT / OAuth2 Security</p>
+          <p>Data Proc</p>
+          <p>TerraData</p>
         </div>
 
         <div className="skills-column">
