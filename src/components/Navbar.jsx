@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <nav className="navbar reveal">
       <h2>Ram Sai Nimmagadda</h2>
 
       <div className="nav-links">

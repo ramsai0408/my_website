@@ -2,7 +2,7 @@ import projectImg from "../assets/fuel.jpg";
 
 export default function Projects() {
   return (
-    <div className="section" id="projects">
+    <div className="section reveal" id="projects">
       <h2>Project</h2>
 
       <div className="project-card-modern single-project">
