@@ -4,7 +4,7 @@ export default function Experience() {
       <h2>Experience</h2>
 
       <div className="card">
-        <h3>Software/Data Engineer – Backend Developer</h3>
+        <h3>Software/Data Engineer </h3>
         <p>Tautelary Inc. | jan 2025 – present</p>
 
         <ul>
@@ -16,7 +16,7 @@ export default function Experience() {
       </div>
 
       <div className="card">
-        <h3>Software/Data Developer</h3>
+        <h3>Software/Data Engineer</h3>
         <p>Cognizant Technology Solutions, Hyderabad | Nov 2020 – May 2023</p>
 
         <ul>
